@@ -210,7 +210,7 @@ vi file.txt – Opens a powerful text editor.
 echo 'Hello' > file.txt – Writes text to a file, overwriting existing content.
 echo 'Hello' >> file.txt – Appends text to a file without overwriting
 
-[200~File Permissions Management in Linux
+File Permissions Management in Linux
 Introduction to File Permissions
 Linux file permissions determine who can read, write, or execute files and directories. Each file and directory has three levels of permission:
 
