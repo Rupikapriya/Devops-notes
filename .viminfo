@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1775666245,,"wq!"
+|2,0,1775719197,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -25,26 +25,66 @@
 # Registers:
 
 # File marks:
-'0  291  0  ~/linuxnotes
-|4,48,291,0,1775666245,"~/linuxnotes"
-'1  211  71  ~/linuxnotes
-|4,49,211,71,1775666116,"~/linuxnotes"
-'2  211  71  ~/linuxnotes
-|4,50,211,71,1775666116,"~/linuxnotes"
-'3  213  0  ~/devopsnotes/linuxnotes
-|4,51,213,0,1775665770,"~/devopsnotes/linuxnotes"
+'0  5  0  ~/basic
+|4,48,5,0,1775719197,"~/basic"
+'1  649  0  ~/linuxnotes
+|4,49,649,0,1775719114,"~/linuxnotes"
+'2  291  0  ~/linuxnotes
+|4,50,291,0,1775666245,"~/linuxnotes"
+'3  291  0  ~/linuxnotes
+|4,51,291,0,1775666245,"~/linuxnotes"
+'4  211  71  ~/linuxnotes
+|4,52,211,71,1775666116,"~/linuxnotes"
+'5  211  71  ~/linuxnotes
+|4,53,211,71,1775666116,"~/linuxnotes"
+'6  211  71  ~/linuxnotes
+|4,54,211,71,1775666116,"~/linuxnotes"
+'7  211  71  ~/linuxnotes
+|4,55,211,71,1775666116,"~/linuxnotes"
+'8  213  0  ~/devopsnotes/linuxnotes
+|4,56,213,0,1775665770,"~/devopsnotes/linuxnotes"
 
 # Jumplist (newest first):
+-'  5  0  ~/basic
+|4,39,5,0,1775719197,"~/basic"
+-'  1  0  ~/basic
+|4,39,1,0,1775719153,"~/basic"
+-'  649  0  ~/linuxnotes
+|4,39,649,0,1775719114,"~/linuxnotes"
+-'  649  0  ~/linuxnotes
+|4,39,649,0,1775719114,"~/linuxnotes"
+-'  291  0  ~/linuxnotes
+|4,39,291,0,1775718861,"~/linuxnotes"
+-'  291  0  ~/linuxnotes
+|4,39,291,0,1775718861,"~/linuxnotes"
+-'  291  0  ~/linuxnotes
+|4,39,291,0,1775666245,"~/linuxnotes"
 -'  291  0  ~/linuxnotes
 |4,39,291,0,1775666245,"~/linuxnotes"
 -'  211  71  ~/linuxnotes
 |4,39,211,71,1775666216,"~/linuxnotes"
+-'  211  71  ~/linuxnotes
+|4,39,211,71,1775666216,"~/linuxnotes"
+-'  211  71  ~/linuxnotes
+|4,39,211,71,1775666216,"~/linuxnotes"
+-'  211  71  ~/linuxnotes
+|4,39,211,71,1775666216,"~/linuxnotes"
+-'  211  71  ~/linuxnotes
+|4,39,211,71,1775666116,"~/linuxnotes"
 -'  211  71  ~/linuxnotes
 |4,39,211,71,1775666116,"~/linuxnotes"
 -'  1  0  ~/linuxnotes
 |4,39,1,0,1775666072,"~/linuxnotes"
 -'  1  0  ~/linuxnotes
 |4,39,1,0,1775666072,"~/linuxnotes"
+-'  1  0  ~/linuxnotes
+|4,39,1,0,1775666072,"~/linuxnotes"
+-'  1  0  ~/linuxnotes
+|4,39,1,0,1775666072,"~/linuxnotes"
+-'  1  0  ~/linuxnotes
+|4,39,1,0,1775666072,"~/linuxnotes"
+-'  1  0  ~/linuxnotes
+|4,39,1,0,1775666072,"~/linuxnotes"
 -'  213  0  ~/devopsnotes/linuxnotes
 |4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
 -'  213  0  ~/devopsnotes/linuxnotes
@@ -53,6 +93,54 @@
 |4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
 -'  213  0  ~/devopsnotes/linuxnotes
 |4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  213  0  ~/devopsnotes/linuxnotes
+|4,39,213,0,1775665770,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
+-'  1  0  ~/devopsnotes/linuxnotes
+|4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
 -'  1  0  ~/devopsnotes/linuxnotes
 |4,39,1,0,1775665711,"~/devopsnotes/linuxnotes"
 -'  1  0  ~/devopsnotes/linuxnotes
@@ -64,13 +152,21 @@
 
 # History of marks within files (newest to oldest):
 
+> ~/basic
+	*	1775719194	0
+	"	5	0
+	^	5	0
+	.	4	7
+	+	4	7
+
 > ~/linuxnotes
-	*	1775666239	0
-	"	291	0
-	^	291	0
-	.	290	0
+	*	1775719106	0
+	"	649	0
+	^	649	0
+	.	648	0
 	+	211	71
 	+	290	0
+	+	648	0
 
 > ~/devopsnotes/linuxnotes
 	*	1775665765	0
