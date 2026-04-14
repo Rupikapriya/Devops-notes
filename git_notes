@@ -1,0 +1,116 @@
+git and github
+
+git and github are different 
+
+we mainly focus on 
+1.VCS nd gitrepo
+2.staging area nd commits
+3.branches
+4.issues nd PRs
+
+Git -VCS--->like we hv real worldproject nd even we have live traffuic so, we need to update nd fix the bugs ...so for this we will main versions. so we can switch to ols vesrion..or to latest version by saving the project.
+
+throgh VCS-we will save our project remotely--->VCS(git)
+
+Remote repository---we can store repositary---this remote repo holding service is GITHUB.
+
+Local repository(project folder) ----
+
+Staging area
+
+working directory
+--->like we build code in txt file or any data
+---like working on it like typing
+----so with that project folder we can do git init ---so that git will initialise on same folder and its ready to track that folder by .git directory
+---to check git  status we can use command -git status
+[200~----so now our git_notes in working directory that we are working on it now , if we want to keep this in remote repo we need to send it to remote reposirory , so from working directory to remote repo we have to sections staging are and local repo, so to store in remote repo  frstly we need to store in local repo.
+---to store in local repo we can done by command git commit , through this we can send the files in bulk
+----but as we have multiple directories in our working directory if you want to push it to staging area we can done all at once or selected files are  qalso we can send by using the command git add
+---now from working directory to ----we feel git has to track we need to add it to staging env by using the command git add
+----now to put our code in remote repo firstly we need to create remote repo in githubclient_loop: send disconnect: Connection reset
+---branches
+we need to create our individualm branchesa nd start working on that , so post work thry will raise PR to merge it with main/ master branch
+
+so swicth btw branches has been done by the command git checkout <branch name>
+git checkout -b <brcnh name> it is for creatinga nd switching between branche
+
+
+------so whenever we need to get the code from gitrepo which is the sourece code found if you wantb to work on that , as we find earlier we will create branch and start workd on new feature right but org wont allow you to create branch over there so for this we can fork the repo as it is to our github
+
+
+.
+
+---so now we forked it to our own git repo so we got permisisons , we create branch and work on that.
+
+---so to work we need to get same repo in local machine by doing git clone .
+git clone<url>
+Used only once when you don’t have the project.
+What it does:
+Downloads entire repository
+Creates a new folder
+Gets all branches + history
+Sets remote (origin) automatically.
+
+
+git fetch<url>
+Check for updates safely
+What it does:
+Downloads latest changes from remote
+❗ Does NOT change your files
+Updates only Git’s internal data
+
+git pull (Update your code)
+What it does:
+Fetches changes AND
+Merges them into your current branch
+
+
+--------------------------------------------------------------------------------
+we have like centralised syastems and distributed systems
+
+certralised means 
+if dev1 nd dev2 are working on same code which is in centralised.
+
+so if the dev 1 has to update the code then only dev2 can take , so dev1 will share code to centralised condrol system
+
+so in distributed sys , dev 1 can take complete copy of code and dev2 also can take , then can update with their updatds
+
+
+-----------------------------------------------------------------------------------
+
+Branching strategies
+
+-->end gosl is to customer with new features and fixing fastly, to get more customer satisfaction
+---->instead of making modifications i=on main / master branch will make the branchesand work on them.
+--->if testinga everything done , working fine we can merge these changes to main branch.--so that attached branch will get deleted.
+---like these branches we call feature branches.
+---now release branch--so deployments will deliver from release branch only. 
+--->sometimes we need to fix customer isuues urgently---so we will fix through hotfix branch and then we will merge it into main and release branch then it will go to deployment.
+
+like we have commands 
+
+git init---> to initialise directory to initialise to track the files which made changes like that.
+
+git add .---> we can stage all files at a time or we can stage one file
+
+git commit--> is use to commit the changes to local repository
+
+git push---to push the changes to remote repository
+
+git remote -v--->use to check reference remote tosend our files
+
+git remote add <remote url>---add the remote to our local repo
+
+git checkout -b <branch name> -->to create branch and support
+
+git log---->to get all commit details 
+
+git status-->to get the status of the tracked files
+
+git merge <branch name>---> we can merge the branches
+
+git rebase<brach name>----> we can rebase the changes
+
+git cherry-pick <commit number>---->we can get that particular commit details
+
+

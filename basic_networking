@@ -3,3 +3,146 @@ CIDR range
 VPC
 SUBnets
 
+TCP/IP protocol----for communication between two sys we are following certain standards those are called protocol.
+
+Transmission contro protocol / Internet protocol
+
+TCP/IP protocol----for communication between two sys we are following certain ground rules those are called protocol.
+
+Transmission contro protocol / Internet protocol
+
+TCp supports Network communication
+
+TCP will divide the data at sender into units(segments) , so thery passed throgh IP and in the form of data units its reaches to receiver, so there the dta will retaine.
+TCP                                                           UDP
+
+HIgh reliable and slow                                        less reliable and fast
+
+maintains order of packets                                    no order guarentee
+eroor checking and retransmisison of losted data              no retransamisision
+High weight with lot of checks                                 leight weight 
+Accuracy matetrs                                             speed mateters
+web browisng, eamils, banking apps                             online gaming, live stareaming
+
+TCP/Ip layers
+
+Interet protocol
+handles addressinga nd routing
+every device gets ip addess
+ensure data packets reaches the corerct destination
+TCP
+ensures reliable delivery
+breaks dattan into packets
+reassemble into correct order|
+checks for errors and resends missing data
+
+Apllication layer---->here user will give request that request will takes place in the form of http and ftp like that
+Transport layer---->handles delivery of data btwn devices like tcp / udp
+internet layr--->handles addressinga ndn routing, sends data to corerct device
+Network layer---->Handles physical transamisison
+
+--------------------------------------------------------------------------------------------------------
+
+LOAD BALANCING
+which ensures the traffic distrubuted to the multiple- survers efiiciently to maintain performance , relability nd scalability.
+
+So that no single server will never go down.
+
+1. faster response time
+2.High availabilty
+3.better resource utiloisation
+4.fault toulerance
+
+
+1. transportlayer load balancer ----based on IP+port, fast, 
+2. application layer load balancer---at https, can route based on url, headrs and cookies, like these is some lag we can expect
+
+------------------------------------------------------------------------------------------------------------------
+
+HHTP/HTTPS
+
+Hyper text transfer protocol
+
+Its a  protocol which is used to transfer the data from client(browser) nd server
+
+User enters URL in browser
+Browser sends HTTP request
+Server processes it
+Server sends HTTP response
+
+HTTP-transfers the data in the form of plain text, and HTTPS -transfers data in encrypted fromat
+HTTP+SSL=HTTPS
+“HTTP is a protocol used for transferring data over the web, while HTTPS is its secure version that uses SSL/TLS encryption to protect data transmission.”
+
+Uses SSL/TLS encryption (Transport Layer Security)
+Data is encrypted before sending 🔐
+Only intended receiver can decrypt
+🔹 Features of HTTPS
+Secure communication 🔒
+Works on port 443
+Uses SSL/TLS certificates
+Protects against:
+Data theft
+Man-in-the-middle attacks
+--------------------------------------------------------------------------------------
+
+DNS is sys that transfers domain name into IP adress so that browser can locate and connect to websites
+
+1. User Request
+
+You enter: www.google.com
+
+2. DNS Resolver(recursive resolver)client_loop--here it will check in browser caching and os caching.then it will send to root user
+
+3. Root Server
+
+Resolver asks root DNS server
+
+4. TLD Server
+
+Then it goes to Top-Level Domain (TLD) server (.com, .org)
+
+5. Authoritative Server
+
+Finally reaches the authoritative DNS server
+
+6. IP Address Returned
+
+Server responds with IP → Browser connects to website
+
+--------------------------------------------------------------------------------------------------------
+
+Diff btwn HTTP/ DNS /DHCP
+
+Purpose: Automatically assigns IP addresses to devices
+
+When you connect to Wi-Fi 📶
+Your device gets:
+IP address
+Gateway
+DNS server
+Uses port 67 & 68
+
+📌 In simple words:
+➡️ DHCP tells “Who are you in the network?”
+
+--
+Purpose: Converts domain names → IP addresses
+
+Example: google.com → 142.250.x.x
+Works behind the scenes before accessing a website
+Uses port 53
+
+📌 In simple words:
+➡️ DNS tells “Where is the server?”
+----
+[200~Purpose: Transfers data between client and server
+
+Used to load websites 🌐
+Works on port 80
+Stateless protocol
+
+📌 In simple words:
+➡️ HTTP tells “Send/receive data from server”
+
+
